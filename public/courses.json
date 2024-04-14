@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "course_title": "C Programming",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Learn the fundamentals of programming using the C language. This course covers basic syntax, data types, control structures, and functions.",
+    "price": 49.99,
+    "credit": 3
+  },
+  {
+    "id": 2,
+    "course_title": "Introduction to Algorithms",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Explore the foundational concepts of algorithms. Topics include sorting, searching, graph algorithms, and algorithmic analysis.",
+    "price": 59.99,
+    "credit": 4
+  },
+  {
+    "id": 3,
+    "course_title": "Introduction to C++ for DSA",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Get started with C++ programming specifically tailored for Data Structures and Algorithms (DSA). Covers object-oriented programming concepts and STL.",
+    "price": 69.99,
+    "credit": 4
+  },
+  {
+    "id": 4,
+    "course_title": "Data Structures",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Master the implementation and usage of various data structures such as arrays, linked lists, trees, and graphs.",
+    "price": 54.99,
+    "credit": 3
+  },
+  {
+    "id": 5,
+    "course_title": "Introduction to Python",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Learn Python programming from scratch. Covers basic syntax, data types, control structures, and popular libraries.",
+    "price": 49.99,
+    "credit": 3
+  },
+  {
+    "id": 6,
+    "course_title": "Software Engineering",
+    "cover_pic": "https://example.com/software_engineering_cover.jpg",
+    "description": "Explore the principles and practices of software engineering, including requirements gathering, design patterns, and testing methodologies.",
+    "price": 79.99,
+    "credit": 5
+  },
+  {
+    "id": 7,
+    "course_title": "AWS - Cloud Computing",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Learn about cloud computing using Amazon Web Services (AWS). Topics include EC2, S3, Lambda, and best practices for cloud architecture.",
+    "price": 89.99,
+    "credit": 6
+  },
+  {
+    "id": 8,
+    "course_title": "Database MySQL",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Gain expertise in MySQL database management. Covers database design, querying, optimization, and administration.",
+    "price": 64.99,
+    "credit": 4
+  },
+  {
+    "id": 9,
+    "course_title": "Problem Solving",
+    "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "description": "Develop problem-solving skills through algorithmic thinking and practice. Includes techniques for breaking down complex problems and devising solutions.",
+    "price": 49.99,
+    "credit": 3
+  }
+]
