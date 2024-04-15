@@ -22,7 +22,7 @@ const Course = ({ course,selectCourse,Decrease,SumCredit}) => {
                     <FiDollarSign className='mt-4 text-2xl' />
                     <span className='mt-5 font-bold text-zinc-500 text-lg'> Price: {price}</span>
                     <IoBookOutline className='mt-5 text-2xl' />
-                    <span className='mt-5 font-semibold text-zinc-500 text-lg'>Credit: {credit}</span>
+                    <span className='mt-5 font-semibold text-zinc-500 text-lg'>Credit: {credit}hr</span>
                 </div>
 
                 <button
