@@ -62,7 +62,7 @@ export default function App() {
   return (
     <>
       <Header></Header>
-      <div className="flex">
+      <div className="flex lg:flex-row md:flex-col">
         <Courses selectCourse={selectCourse} Decrease={Decrease} SumCredit={SumCredit}/>
         {/* {selectedCourses.map((selected) => (
           <Selected_Courses key={selected.id} selected={selected} />

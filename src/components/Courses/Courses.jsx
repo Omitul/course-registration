@@ -13,7 +13,7 @@ const Courses = ({selectCourse,Decrease,SumCredit}) => {
   }, []);
 
   return (
-    <div className='grid grid-cols-3 gap-x-20' style={{ maxWidth: '1200px', margin:'auto'}}>
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-x-20' style={{ maxWidth: '1200px', margin:'auto'}}>
       {courses.map( course => (
         <Course key={course.id} course = {course}
         selectCourse = {selectCourse}
