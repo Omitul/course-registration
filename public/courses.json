@@ -19,7 +19,7 @@
     "id": 3,
     "course_title": "Introduction to C++ for DSA",
     "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
-    "description": "Get started with C++ programming specifically tailored for Data Structures and Algorithms (DSA). Covers object-oriented programming concepts and STL.",
+    "description": "Get started with C++ programming specifically tailored for Data Structures and Algorithms (DSA),Covers STL & OOP",
     "price": 69.99,
     "credit": 4
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "course_title": "AWS - Cloud Computing",
     "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
-    "description": "Learn about cloud computing using Amazon Web Services (AWS). Topics include EC2, S3, Lambda, and best practices for cloud architecture.",
+    "description": "Learn about cloud computing using Amazon Web Services (AWS). Topics include EC2, S3, Lambda, and best practices for cloud.",
     "price": 89.99,
     "credit": 6
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "course_title": "Problem Solving",
     "cover_pic": "https://i.ibb.co/84Zfw2n/1.jpg",
-    "description": "Develop problem-solving skills through algorithmic thinking and practice. Includes techniques for breaking down complex problems and devising solutions.",
+    "description": "Develop problem-solving skills through algorithmic thinking and practice. Includes techniques for solving problems",
     "price": 49.99,
     "credit": 3
   }
