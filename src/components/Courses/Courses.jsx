@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Course from './Course';
 
-const Courses = () => {
+import PropTypes from 'prop-types';
+
+const Courses = ({selectCourse,Decrease}) => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -13,12 +15,19 @@ const Courses = () => {
   return (
     <div className='grid grid-cols-3 gap-2' style={{ maxWidth: '1200px', margin:'auto'}}>
       {courses.map( course => (
-        <Course key={course.id} course = {course}></Course>
+        <Course key={course.id} course = {course}
+        selectCourse = {selectCourse}
+        Decrease={Decrease}
+        >  
+        </Course>
       ))}
     </div>
   );
 };
 
-Courses.propTypes = {};
+Courses.propTypes = {
+    selectCourse: PropTypes.func.isRequired,      
+    Decrease:PropTypes.func.isRequired 
+};
 
 export default Courses;
