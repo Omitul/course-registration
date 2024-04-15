@@ -2,7 +2,7 @@ import Courses_Added from "./Courses_Added";
 import PropTypes from 'prop-types';
 
 
-const Selected_Courses = ({selectedCourse,hour}) => {
+const Selected_Courses = ({selectedCourse,hour,totalCredit}) => {
   return (
     <>
       <div className='mt-6 w-96 h-auto border-4 p-8 rounded-xl text-center'>
@@ -20,7 +20,7 @@ const Selected_Courses = ({selectedCourse,hour}) => {
 
         </h2>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-        <p className="text-2xl text-gray-600">Total Credit Hour:</p>
+        <p className="text-2xl text-gray-600">Total Credit Hour: {totalCredit}</p>
 
 
 
@@ -33,7 +33,8 @@ const Selected_Courses = ({selectedCourse,hour}) => {
 
 Selected_Courses.propTypes = {
   selectedCourse: PropTypes.array.isRequired,
-  hour: PropTypes.number.isRequired
+  hour: PropTypes.number.isRequired,
+  totalCredit: PropTypes.number.isRequired
 };
 
 export default Selected_Courses;

@@ -4,7 +4,7 @@ import { LiaDollarSignSolid } from "react-icons/lia";
 import { IoBookOutline } from "react-icons/io5";
 
 
-const Course = ({ course,selectCourse,Decrease}) => {
+const Course = ({ course,selectCourse,Decrease,SumCredit}) => {
     const { cover_pic, course_title, description, price, credit } = course;
     console.log(course);
     return (
@@ -26,8 +26,9 @@ const Course = ({ course,selectCourse,Decrease}) => {
                 </div>
 
                 <button
-                onClick={()=> {selectCourse(course);
+                onClick={()=> {selectCourse(course,credit);
                     Decrease(credit);
+                    SumCredit(credit);
                     }}
 
                 className='rounded-xl mt-8 ml-3 p-2 w-80 font-bold' style={{ color: 'white', background: 'aqua' }}>SELECT</button>
@@ -42,7 +43,8 @@ const Course = ({ course,selectCourse,Decrease}) => {
 Course.propTypes = {
     course: PropTypes.object.isRequired,
     Decrease: PropTypes.func.isRequired,
-    selectCourse: PropTypes.func.isRequired
+    selectCourse: PropTypes.func.isRequired,
+    SumCredit: PropTypes.func.isRequired
 }
 
 export default Course;

@@ -3,7 +3,7 @@
     "id": 1,
     "course_title": "C Programming",
     "cover_pic": "https://i.postimg.cc/G36dS69M/Rectangle-2-2.png",
-    "description": "Learn the fundamentals of programming using the C language. This course covers basic syntax, data types, control structures, and functions.",
+    "description": "Learn the fundamentals of programming using the C language.This course covers basic syntax, data types, control structures functions.",
     "price": 49.99,
     "credit": 3
   },
