@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import { LiaDollarSignSolid } from "react-icons/lia";
+import { FiDollarSign } from "react-icons/fi";
 import { IoBookOutline } from "react-icons/io5";
 
 
@@ -18,11 +18,11 @@ const Course = ({ course,selectCourse,Decrease,SumCredit}) => {
                     <p className='mt-4 text-zinc-500'>{description}</p>
                 </div>
 
-                <div className='flex items-center gap-x-12'>
-                    <LiaDollarSignSolid className='mt-4 text-2xl' />
-                    <span className='mt-5 font-bold text-zinc-500'> Price: {price}</span>
+                <div className='flex items-center gap-x-9'>
+                    <FiDollarSign className='mt-4 text-2xl' />
+                    <span className='mt-5 font-bold text-zinc-500 text-lg'> Price: {price}</span>
                     <IoBookOutline className='mt-5 text-2xl' />
-                    <span className='mt-5 font-semibold text-zinc-500'>Credit: {credit}</span>
+                    <span className='mt-5 font-semibold text-zinc-500 text-lg'>Credit: {credit}</span>
                 </div>
 
                 <button
